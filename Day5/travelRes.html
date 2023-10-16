@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Reservation Form</title>
+    </head>
+    <body>
+        <h1>Travel Reservation Form</h1>
+        <h3>* denotes mandatory</h3>
+    </body>
+    <form action="">
+        <label for="Full Name *">Full Name * : </label><br>
+        <input type = "text" id = "Full Name *" name = "Full Name *" placeholder = "First Name  Last Name">
+        <br>
+        <br>
+        <label for = "Email address *">Email address * :</label><br>
+        <input type = "text" id = "Email address *" name = "Email address *">
+        <br>
+        <br>
+        <label for="Select Tour Package *">Select Tour Package * : </label><br>
+        <select id="Select Tour Package *" name="Select Tour Package *">
+            <option value="Goa">Goa</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Shimla/Manali">Shimla/Manali</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <br>
+        <br>
+        <label for="Arrival Date * ">Arrival Date * : </label><br>
+        <input type="text" id = "Arrival Date *" name = "Arrival Date *" placeholder = "mm/dd/yy">
+        <br>
+        <br>
+        <label for="Number of persons * ">Number of persons * : </label><br>
+        <input type="text" id = "Number of persons *" name = "Number of persons *">
+        <br>
+        <br>
+        <label for="avail">What would you want to avail ? *</label><br>
+        <label for = "Boarding">Boarding</label>
+        <input type="checkbox" id="Boarding" name="Boarding" value="checked">
+        <br>
+        <label for = "Fooding">Fooding</label>
+        <input type="checkbox" id="Fooding" name="Fooding" value="checked">
+        <br>
+        <label for = "Sight seeing">Sight seeing</label>
+        <input type="checkbox" id="Sight seeing" name="Sight seeing" value="checked">
+        <br>
+        <br>
+        <label for="Discount">Discount Coupon code : </label><br>
+        <input type="text" id = "Discount" name = "Discount">
+        <br><br>
+        <label for="t&c">Terms and conditions * </label><br>
+        <input type="checkbox" id="I agree" name="I agree" value="checked">
+        <label for = "I disagree">I disagree</label>
+        <input type="checkbox" id="I disagree" name="I disagree" value="checked">
+        <label for = "I agree">I agree</label>
+        <br><br>
+        <button type="Complete Reservation">Complete Reservation</button>
+    </form>
+</html>
